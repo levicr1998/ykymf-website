@@ -10,7 +10,7 @@ html {
   text-align: center;
   opacity: 0; /* Start with hidden */
   transition: opacity 1s ease-in; /* Transition effect */
-  height: 100dvh;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
