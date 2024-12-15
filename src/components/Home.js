@@ -21,7 +21,7 @@ function Home() {
         come be part of the blue bear base!
       </p>
       <p>
-        <a className="ca" href="https://ape.store/base/0xb2779752b8abe50e2a06bddd774bf0a40353f867"><b>CA:</b> 0xd7943dbddcf5cca70e5787cf58f940fb98838d4e</a>
+        <a className="ca" href="https://ape.store/base/0xd7943dbddcf5cca70e5787cf58f940fb98838d4e"><b>CA:</b> 0xd7943dbddcf5cca70e5787cf58f940fb98838d4e</a>
       </p>
       <div className='icons'>
         <a href='https://x.com/papabearbase'>
