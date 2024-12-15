@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/base-papa-website/static/css/main.86684507.css",
+    "main.css": "/base-papa-website/static/css/main.8e6170b7.css",
     "main.js": "/base-papa-website/static/js/main.d5225598.js",
     "index.html": "/base-papa-website/index.html",
-    "main.86684507.css.map": "/base-papa-website/static/css/main.86684507.css.map",
+    "main.8e6170b7.css.map": "/base-papa-website/static/css/main.8e6170b7.css.map",
     "main.d5225598.js.map": "/base-papa-website/static/js/main.d5225598.js.map"
   },
   "entrypoints": [
-    "static/css/main.86684507.css",
+    "static/css/main.8e6170b7.css",
     "static/js/main.d5225598.js"
   ]
 }
