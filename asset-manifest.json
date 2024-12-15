@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.add163d9.css",
-    "main.js": "/static/js/main.218cfc49.js",
-    "index.html": "/index.html",
-    "main.add163d9.css.map": "/static/css/main.add163d9.css.map",
-    "main.218cfc49.js.map": "/static/js/main.218cfc49.js.map"
+    "main.css": "/base-papa-website/static/css/main.add163d9.css",
+    "main.js": "/base-papa-website/static/js/main.218cfc49.js",
+    "index.html": "/base-papa-website/index.html",
+    "main.add163d9.css.map": "/base-papa-website/static/css/main.add163d9.css.map",
+    "main.218cfc49.js.map": "/base-papa-website/static/js/main.218cfc49.js.map"
   },
   "entrypoints": [
     "static/css/main.add163d9.css",
