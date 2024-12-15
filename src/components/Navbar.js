@@ -6,7 +6,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <img className="header-image" src="/home-image.webp" />
+      <img className="header-image" src="./home-image.webp" />
       <div className="links">
         <Link to="home" smooth={true} duration={500}>Home</Link>
       </div>

@@ -17,14 +17,16 @@ function App() {
   }, []);
 
   return (
+    <div>
+    <Snow />
     <div className={`App fade-in ${fade ? 'visible' : ''}`}>
-      <Snow />
       <Navbar />
       <section id="home">
         <Home />
       </section>
       <div className="flex" />
       <Footer />
+    </div>
     </div>
   );
 }

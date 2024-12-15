@@ -61,7 +61,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background: linear-gradient(#123, #111);
 	opacity: 0;
 	animation: main-loadup 1s forwards linear, main-loadup-bg 10s forwards linear;

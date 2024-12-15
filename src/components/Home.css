@@ -26,7 +26,7 @@
 
   @media screen and (max-width: 768px) {
     .description {
-      width:300px;
+      width:100%;
     }
 
     .dex-icon {
