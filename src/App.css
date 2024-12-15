@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  color: #1D405B;
+  text-align: center;
+  opacity: 0; /* Start with hidden */
+  transition: opacity 1s ease-in; /* Transition effect */
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+nav, .footer {
+  padding: 10px;
+}
+
+h1, h2 {
+  color: #1D405B;
+}
+
+a {
+  margin: 0 15px;
+  color: #1D405B;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  flex:1;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure the body takes full height */
+  background: #554023;
+  background: linear-gradient(
+    to right,
+    #A4CDE6,#E8F1F8
+  );
+  animation: gradient-animation 15s ease infinite; /* Optional animation */
+}
+
+.visible {
+  opacity: 100; /* Fully visible after transition */
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

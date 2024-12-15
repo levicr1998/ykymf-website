@@ -1,0 +1,66 @@
+.home {
+    padding: 30px;
+    text-align: center;
+    height: 100%;
+    position:relative;
+    z-index:10;
+  }
+  
+  .home h2 {
+    font-size: 4em;
+    color:#C1242C;
+    font-family: 'Great Vibes';
+  }
+
+  .dex-icon {
+    width: 80px;
+    height: 80px;
+    color:#C1242C;
+  }
+
+
+  .description {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .description {
+      width:300px;
+    }
+
+    .dex-icon {
+      width: 40px;
+      height: 40px;
+    }
+
+  }
+
+  .ca {
+    color:#1D405B;
+    font-size: 1.2em;
+    overflow-wrap: break-word;
+  }
+  
+  .home p {
+    font-size: 1.2em;
+    color: #1D405B;
+  }
+
+  .icon {
+    transition: transform 0.3s ease;
+    fill: #C1242C;
+  }
+
+
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  .icons {
+    margin-top:50px;
+  }
+
+  audio {
+    
+  }
