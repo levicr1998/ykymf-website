@@ -4,6 +4,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.wrapper {
+  height: 100%;
+  position: relative;
+}
+
 .App {
   font-family: 'Montserrat', sans-serif;
   color: #1D405B;

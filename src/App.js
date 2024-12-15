@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className='wrapper'>
     <Snow />
     <div className={`App fade-in ${fade ? 'visible' : ''}`}>
       <Navbar />
