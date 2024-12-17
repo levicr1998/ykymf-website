@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 html {
   scroll-behavior: smooth;
@@ -51,11 +52,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh; /* Ensure the body takes full height */
-  background: #554023;
-  background: linear-gradient(
-    to right,
-    #A4CDE6,#E8F1F8
-  );
+  background:  #0052FE;
   animation: gradient-animation 15s ease infinite; /* Optional animation */
 }
 

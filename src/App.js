@@ -1,10 +1,10 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Footer from './components/Footer';
-import Snow from './components/Snow'
-import { useState, useEffect } from 'react';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+import Snow from "./components/Snow";
+import { useState, useEffect } from "react";
+import "./App.css";
 
 function App() {
   const [fade, setFade] = useState(false);
@@ -17,16 +17,16 @@ function App() {
   }, []);
 
   return (
-    <div className='wrapper'>
-    <Snow />
-    <div className={`App fade-in ${fade ? 'visible' : ''}`}>
-      <Navbar />
-      <section id="home">
-        <Home />
-      </section>
-      <div className="flex" />
-      <Footer />
-    </div>
+    <div className="wrapper">
+      <div className={`App fade-in ${fade ? "visible" : ""}`}>
+        <Navbar />
+        <section id="home">
+          <Home />
+        </section>
+        <div className="flex" />
+        <Footer />
+      </div>
+      <Snow />
     </div>
   );
 }

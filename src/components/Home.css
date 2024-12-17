@@ -3,25 +3,34 @@
     text-align: center;
     height: 100%;
     position:relative;
-    z-index:10;
+    text-align: center;
+    z-index: 50;
   }
   
   .home h2 {
     font-size: 4em;
-    color:#C1242C;
-    font-family: 'Great Vibes';
+    color:#ffffff;
+    font-family: 'Bebas Neue';
   }
 
   .dex-icon {
     width: 80px;
     height: 80px;
-    color:#C1242C;
+    color:#ffffff;
+  }
+
+  .link {
+    color:#ffffff;
+    text-decoration: underline;
   }
 
 
   .description {
     width: 500px;
     margin: 0 auto;
+    color:#ffffff;
+    position: relative;
+    z-index: 50;
   }
 
   @media screen and (max-width: 768px) {
@@ -33,23 +42,27 @@
       width: 40px;
       height: 40px;
     }
-
   }
 
   .ca {
-    color:#1D405B;
-    font-size: 1.2em;
+    color:#ffffff;
+    font-size: 1.5rem;
     overflow-wrap: break-word;
+  }
+
+  .ca-title {
+    color:#ffffff;
+    font-size: 1.5rem;
   }
   
   .home p {
-    font-size: 1.2em;
-    color: #1D405B;
+    font-size: 1.2rem;
+    color: #ffffff;
   }
 
   .icon {
     transition: transform 0.3s ease;
-    fill: #C1242C;
+    fill: #ffffff;
   }
 
 
@@ -59,8 +72,4 @@
 
   .icons {
     margin-top:50px;
-  }
-
-  audio {
-    
   }

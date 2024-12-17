@@ -9,13 +9,13 @@
   .navbar h1 {
     margin: 0;
     font-size: 1.8em;
-    color:#C1242C;
+    color:#ffffff;
   }
   
   .links a {
     margin-left: 15px;
     font-weight: bold;
-    color: #C1242C;
+    color: #ffffff;
     text-decoration: none;
   }
   
@@ -24,6 +24,6 @@
   }
 
   .header-image {
-    width:60px;
-    height: 60px;
+    width:80px;
+    height: 80px;
   }
