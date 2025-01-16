@@ -17,6 +17,9 @@
     width: 80px;
     height: 80px;
     color:#ffffff;
+    opacity: 0.4;
+    cursor: not-allowed;
+    
   }
 
   .link {
@@ -46,7 +49,7 @@
   }
 
   .ca {
-    color:#ffffff;
+    color:#E01B24;
     font-size: 1.5rem;
     overflow-wrap: break-word;
   }
@@ -67,7 +70,7 @@
   }
 
 
-  .icon:hover {
+  .icon:not(.dex-icon):hover {
     transform: scale(1.1);
   }
 
