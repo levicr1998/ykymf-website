@@ -56,6 +56,12 @@ body {
   animation: gradient-animation 15s ease infinite; /* Optional animation */
 }
 
+@media screen and (max-width: 768px) {
+ body {
+  height: 100%;
+ }
+
+  }
 
 .visible {
   opacity: 100; /* Fully visible after transition */
