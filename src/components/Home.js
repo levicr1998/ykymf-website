@@ -12,12 +12,12 @@ function Home() {
 
   return (
     <div className="home">
+      <h2 className="title" style={{wordBreak: 'break-word'}}>🇺🇸 Welcome to the $BTRUMP movement! 🇺🇸</h2>
+      <p>Following in his father’s iconic footsteps, Barron stands poised to guide America into a new era. The future begins with him! Join us!</p>
       <a className="ca" href="https://ape.store/base/0x9a9dd2e5167d2473a76e367e9b9b9b9fe6e15470">
         <b>CA: </b>
         0x9a9dd2e5167d2473a76e367e9b9b9b9fe6e15470
       </a>
-      <h2>🇺🇸 Welcome to the $BTRUMP movement! 🇺🇸</h2>
-      <p>Following in his father’s iconic footsteps, Barron stands poised to guide America into a new era. The future begins with him! Join us!</p>
       <div className="icons">
         <a href="https://x.com/BarronTrumpBase">
           <FaSquareXTwitter

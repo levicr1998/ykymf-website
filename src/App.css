@@ -51,7 +51,7 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  height: 100vh; /* Ensure the body takes full height */
+  height: 100%; /* Ensure the body takes full height */
   background:  linear-gradient(135deg, #0A1F44 0%, #000814 100%);
   animation: gradient-animation 15s ease infinite; /* Optional animation */
 }
